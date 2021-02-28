@@ -16,6 +16,8 @@
 		18BD166725EC27E7009D01E2 /* SumAllArrayItemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD166625EC27E7009D01E2 /* SumAllArrayItemsTests.swift */; };
 		18BD166F25EC2954009D01E2 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD166E25EC2954009D01E2 /* ReverseString.swift */; };
 		18BD167325EC299B009D01E2 /* ReverseStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD167225EC299B009D01E2 /* ReverseStringTests.swift */; };
+		18BD167925EC2B30009D01E2 /* FilterArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD167825EC2B30009D01E2 /* FilterArray.swift */; };
+		18BD167D25EC2C1A009D01E2 /* FilterArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD167C25EC2C1A009D01E2 /* FilterArrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		18BD166625EC27E7009D01E2 /* SumAllArrayItemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumAllArrayItemsTests.swift; sourceTree = "<group>"; };
 		18BD166E25EC2954009D01E2 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		18BD167225EC299B009D01E2 /* ReverseStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringTests.swift; sourceTree = "<group>"; };
+		18BD167825EC2B30009D01E2 /* FilterArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterArray.swift; sourceTree = "<group>"; };
+		18BD167C25EC2C1A009D01E2 /* FilterArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				18BD165225EBC749009D01E2 /* SortNumbersAscending.swift */,
 				18BD166025EC277A009D01E2 /* SumAllArrayItems.swift */,
 				18BD166E25EC2954009D01E2 /* ReverseString.swift */,
+				18BD167825EC2B30009D01E2 /* FilterArray.swift */,
 			);
 			path = Mentoring;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 				18BD165625EBC783009D01E2 /* SortNumbersAscendingTests.swift */,
 				18BD166625EC27E7009D01E2 /* SumAllArrayItemsTests.swift */,
 				18BD167225EC299B009D01E2 /* ReverseStringTests.swift */,
+				18BD167C25EC2C1A009D01E2 /* FilterArrayTests.swift */,
 			);
 			path = MentoringTests;
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 				187905E625EBB8EB006A94B2 /* FizzBuzz.swift in Sources */,
 				18BD166F25EC2954009D01E2 /* ReverseString.swift in Sources */,
 				18BD166125EC277B009D01E2 /* SumAllArrayItems.swift in Sources */,
+				18BD167925EC2B30009D01E2 /* FilterArray.swift in Sources */,
 				18BD165325EBC749009D01E2 /* SortNumbersAscending.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +233,7 @@
 				18BD166725EC27E7009D01E2 /* SumAllArrayItemsTests.swift in Sources */,
 				18BD167325EC299B009D01E2 /* ReverseStringTests.swift in Sources */,
 				187905D425EBB856006A94B2 /* FizzBuzzTests.swift in Sources */,
+				18BD167D25EC2C1A009D01E2 /* FilterArrayTests.swift in Sources */,
 				18BD165725EBC783009D01E2 /* SortNumbersAscendingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
