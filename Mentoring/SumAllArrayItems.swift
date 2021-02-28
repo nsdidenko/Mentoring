@@ -1,6 +1,6 @@
 import Foundation
 
-// Sum all elemnts
+// Просуммировать все элементы в массиве
 
 public func sum(_ items: [Double]) -> Double {
     0
