@@ -1,5 +1,5 @@
 import XCTest
-import Mentoring
+import ReverseString
 
 class ReverseStringTests: XCTestCase {
     func test_reversed_returnsReversedVersionOfString() {

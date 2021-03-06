@@ -7,113 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187905CF25EBB856006A94B2 /* Mentoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187905C525EBB855006A94B2 /* Mentoring.framework */; };
-		187905D425EBB856006A94B2 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187905D325EBB856006A94B2 /* FizzBuzzTests.swift */; };
-		187905E625EBB8EB006A94B2 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187905E525EBB8EB006A94B2 /* FizzBuzz.swift */; };
-		18BD165325EBC749009D01E2 /* SortNumbersAscending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD165225EBC749009D01E2 /* SortNumbersAscending.swift */; };
-		18BD165725EBC783009D01E2 /* SortNumbersAscendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD165625EBC783009D01E2 /* SortNumbersAscendingTests.swift */; };
-		18BD166125EC277B009D01E2 /* SumAllArrayItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD166025EC277A009D01E2 /* SumAllArrayItems.swift */; };
-		18BD166725EC27E7009D01E2 /* SumAllArrayItemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD166625EC27E7009D01E2 /* SumAllArrayItemsTests.swift */; };
-		18BD166F25EC2954009D01E2 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD166E25EC2954009D01E2 /* ReverseString.swift */; };
-		18BD167325EC299B009D01E2 /* ReverseStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD167225EC299B009D01E2 /* ReverseStringTests.swift */; };
-		18BD167925EC2B30009D01E2 /* FilterArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD167825EC2B30009D01E2 /* FilterArray.swift */; };
-		18BD167D25EC2C1A009D01E2 /* FilterArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD167C25EC2C1A009D01E2 /* FilterArrayTests.swift */; };
+		18023A2125F3A2CD0080FEDC /* SumNumbersInArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */; };
+		18023A2625F3A2CD0080FEDC /* SumNumbersInArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A2525F3A2CD0080FEDC /* SumNumbersInArrayTests.swift */; };
+		18023A3625F3A36E0080FEDC /* SumNumbersInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A3525F3A36E0080FEDC /* SumNumbersInArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		187905D025EBB856006A94B2 /* PBXContainerItemProxy */ = {
+		18023A2225F3A2CD0080FEDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 187905BC25EBB855006A94B2 /* Project object */;
+			containerPortal = 18023A0E25F3A2CD0080FEDC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 187905C425EBB855006A94B2;
-			remoteInfo = Mentoring;
+			remoteGlobalIDString = 18023A1625F3A2CD0080FEDC;
+			remoteInfo = SumNumbersInArray;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		187905C525EBB855006A94B2 /* Mentoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mentoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		187905C925EBB855006A94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		187905CE25EBB856006A94B2 /* MentoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentoringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		187905D325EBB856006A94B2 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
-		187905D525EBB856006A94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		187905E525EBB8EB006A94B2 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
-		18BD165225EBC749009D01E2 /* SortNumbersAscending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortNumbersAscending.swift; sourceTree = "<group>"; };
-		18BD165625EBC783009D01E2 /* SortNumbersAscendingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortNumbersAscendingTests.swift; sourceTree = "<group>"; };
-		18BD166025EC277A009D01E2 /* SumAllArrayItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumAllArrayItems.swift; sourceTree = "<group>"; };
-		18BD166625EC27E7009D01E2 /* SumAllArrayItemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumAllArrayItemsTests.swift; sourceTree = "<group>"; };
-		18BD166E25EC2954009D01E2 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
-		18BD167225EC299B009D01E2 /* ReverseStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringTests.swift; sourceTree = "<group>"; };
-		18BD167825EC2B30009D01E2 /* FilterArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterArray.swift; sourceTree = "<group>"; };
-		18BD167C25EC2C1A009D01E2 /* FilterArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterArrayTests.swift; sourceTree = "<group>"; };
+		18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SumNumbersInArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A1B25F3A2CD0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A2025F3A2CD0080FEDC /* SumNumbersInArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumNumbersInArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A2525F3A2CD0080FEDC /* SumNumbersInArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumNumbersInArrayTests.swift; sourceTree = "<group>"; };
+		18023A2725F3A2CD0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A3525F3A36E0080FEDC /* SumNumbersInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumNumbersInArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		187905C225EBB855006A94B2 /* Frameworks */ = {
+		18023A1425F3A2CD0080FEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		187905CB25EBB856006A94B2 /* Frameworks */ = {
+		18023A1D25F3A2CD0080FEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187905CF25EBB856006A94B2 /* Mentoring.framework in Frameworks */,
+				18023A2125F3A2CD0080FEDC /* SumNumbersInArray.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		187905BB25EBB855006A94B2 = {
+		18023A0D25F3A2CD0080FEDC = {
 			isa = PBXGroup;
 			children = (
-				187905C725EBB855006A94B2 /* Mentoring */,
-				187905D225EBB856006A94B2 /* MentoringTests */,
-				187905C625EBB855006A94B2 /* Products */,
+				18023A1925F3A2CD0080FEDC /* SumNumbersInArray */,
+				18023A2425F3A2CD0080FEDC /* SumNumbersInArrayTests */,
+				18023A1825F3A2CD0080FEDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		187905C625EBB855006A94B2 /* Products */ = {
+		18023A1825F3A2CD0080FEDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				187905C525EBB855006A94B2 /* Mentoring.framework */,
-				187905CE25EBB856006A94B2 /* MentoringTests.xctest */,
+				18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */,
+				18023A2025F3A2CD0080FEDC /* SumNumbersInArrayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		187905C725EBB855006A94B2 /* Mentoring */ = {
+		18023A1925F3A2CD0080FEDC /* SumNumbersInArray */ = {
 			isa = PBXGroup;
 			children = (
-				187905C925EBB855006A94B2 /* Info.plist */,
-				187905E525EBB8EB006A94B2 /* FizzBuzz.swift */,
-				18BD165225EBC749009D01E2 /* SortNumbersAscending.swift */,
-				18BD166025EC277A009D01E2 /* SumAllArrayItems.swift */,
-				18BD166E25EC2954009D01E2 /* ReverseString.swift */,
-				18BD167825EC2B30009D01E2 /* FilterArray.swift */,
+				18023A1B25F3A2CD0080FEDC /* Info.plist */,
+				18023A3525F3A36E0080FEDC /* SumNumbersInArray.swift */,
 			);
-			path = Mentoring;
+			path = SumNumbersInArray;
 			sourceTree = "<group>";
 		};
-		187905D225EBB856006A94B2 /* MentoringTests */ = {
+		18023A2425F3A2CD0080FEDC /* SumNumbersInArrayTests */ = {
 			isa = PBXGroup;
 			children = (
-				187905D525EBB856006A94B2 /* Info.plist */,
-				187905D325EBB856006A94B2 /* FizzBuzzTests.swift */,
-				18BD165625EBC783009D01E2 /* SortNumbersAscendingTests.swift */,
-				18BD166625EC27E7009D01E2 /* SumAllArrayItemsTests.swift */,
-				18BD167225EC299B009D01E2 /* ReverseStringTests.swift */,
-				18BD167C25EC2C1A009D01E2 /* FilterArrayTests.swift */,
+				18023A2725F3A2CD0080FEDC /* Info.plist */,
+				18023A2525F3A2CD0080FEDC /* SumNumbersInArrayTests.swift */,
 			);
-			path = MentoringTests;
+			path = SumNumbersInArrayTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		187905C025EBB855006A94B2 /* Headers */ = {
+		18023A1225F3A2CD0080FEDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,61 +99,61 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		187905C425EBB855006A94B2 /* Mentoring */ = {
+		18023A1625F3A2CD0080FEDC /* SumNumbersInArray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 187905D925EBB856006A94B2 /* Build configuration list for PBXNativeTarget "Mentoring" */;
+			buildConfigurationList = 18023A2B25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArray" */;
 			buildPhases = (
-				187905C025EBB855006A94B2 /* Headers */,
-				187905C125EBB855006A94B2 /* Sources */,
-				187905C225EBB855006A94B2 /* Frameworks */,
-				187905C325EBB855006A94B2 /* Resources */,
+				18023A1225F3A2CD0080FEDC /* Headers */,
+				18023A1325F3A2CD0080FEDC /* Sources */,
+				18023A1425F3A2CD0080FEDC /* Frameworks */,
+				18023A1525F3A2CD0080FEDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Mentoring;
-			productName = Mentoring;
-			productReference = 187905C525EBB855006A94B2 /* Mentoring.framework */;
+			name = SumNumbersInArray;
+			productName = SumNumbersInArray;
+			productReference = 18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		187905CD25EBB856006A94B2 /* MentoringTests */ = {
+		18023A1F25F3A2CD0080FEDC /* SumNumbersInArrayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 187905DC25EBB856006A94B2 /* Build configuration list for PBXNativeTarget "MentoringTests" */;
+			buildConfigurationList = 18023A2E25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArrayTests" */;
 			buildPhases = (
-				187905CA25EBB856006A94B2 /* Sources */,
-				187905CB25EBB856006A94B2 /* Frameworks */,
-				187905CC25EBB856006A94B2 /* Resources */,
+				18023A1C25F3A2CD0080FEDC /* Sources */,
+				18023A1D25F3A2CD0080FEDC /* Frameworks */,
+				18023A1E25F3A2CD0080FEDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				187905D125EBB856006A94B2 /* PBXTargetDependency */,
+				18023A2325F3A2CD0080FEDC /* PBXTargetDependency */,
 			);
-			name = MentoringTests;
-			productName = MentoringTests;
-			productReference = 187905CE25EBB856006A94B2 /* MentoringTests.xctest */;
+			name = SumNumbersInArrayTests;
+			productName = SumNumbersInArrayTests;
+			productReference = 18023A2025F3A2CD0080FEDC /* SumNumbersInArrayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		187905BC25EBB855006A94B2 /* Project object */ = {
+		18023A0E25F3A2CD0080FEDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					187905C425EBB855006A94B2 = {
+					18023A1625F3A2CD0080FEDC = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
 					};
-					187905CD25EBB856006A94B2 = {
+					18023A1F25F3A2CD0080FEDC = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 187905BF25EBB855006A94B2 /* Build configuration list for PBXProject "Mentoring" */;
+			buildConfigurationList = 18023A1125F3A2CD0080FEDC /* Build configuration list for PBXProject "SumNumbersInArray" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,26 +161,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 187905BB25EBB855006A94B2;
-			productRefGroup = 187905C625EBB855006A94B2 /* Products */;
+			mainGroup = 18023A0D25F3A2CD0080FEDC;
+			productRefGroup = 18023A1825F3A2CD0080FEDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				187905C425EBB855006A94B2 /* Mentoring */,
-				187905CD25EBB856006A94B2 /* MentoringTests */,
+				18023A1625F3A2CD0080FEDC /* SumNumbersInArray */,
+				18023A1F25F3A2CD0080FEDC /* SumNumbersInArrayTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		187905C325EBB855006A94B2 /* Resources */ = {
+		18023A1525F3A2CD0080FEDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		187905CC25EBB856006A94B2 /* Resources */ = {
+		18023A1E25F3A2CD0080FEDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,42 +190,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		187905C125EBB855006A94B2 /* Sources */ = {
+		18023A1325F3A2CD0080FEDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187905E625EBB8EB006A94B2 /* FizzBuzz.swift in Sources */,
-				18BD166F25EC2954009D01E2 /* ReverseString.swift in Sources */,
-				18BD166125EC277B009D01E2 /* SumAllArrayItems.swift in Sources */,
-				18BD167925EC2B30009D01E2 /* FilterArray.swift in Sources */,
-				18BD165325EBC749009D01E2 /* SortNumbersAscending.swift in Sources */,
+				18023A3625F3A36E0080FEDC /* SumNumbersInArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		187905CA25EBB856006A94B2 /* Sources */ = {
+		18023A1C25F3A2CD0080FEDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BD166725EC27E7009D01E2 /* SumAllArrayItemsTests.swift in Sources */,
-				18BD167325EC299B009D01E2 /* ReverseStringTests.swift in Sources */,
-				187905D425EBB856006A94B2 /* FizzBuzzTests.swift in Sources */,
-				18BD167D25EC2C1A009D01E2 /* FilterArrayTests.swift in Sources */,
-				18BD165725EBC783009D01E2 /* SortNumbersAscendingTests.swift in Sources */,
+				18023A2625F3A2CD0080FEDC /* SumNumbersInArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		187905D125EBB856006A94B2 /* PBXTargetDependency */ = {
+		18023A2325F3A2CD0080FEDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 187905C425EBB855006A94B2 /* Mentoring */;
-			targetProxy = 187905D025EBB856006A94B2 /* PBXContainerItemProxy */;
+			target = 18023A1625F3A2CD0080FEDC /* SumNumbersInArray */;
+			targetProxy = 18023A2225F3A2CD0080FEDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		187905D725EBB856006A94B2 /* Debug */ = {
+		18023A2925F3A2CD0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		187905D825EBB856006A94B2 /* Release */ = {
+		18023A2A25F3A2CD0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +338,7 @@
 			};
 			name = Release;
 		};
-		187905DA25EBB856006A94B2 /* Debug */ = {
+		18023A2C25F3A2CD0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -381,14 +349,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Mentoring/Info.plist;
+				INFOPLIST_FILE = SumNumbersInArray/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentoring.Mentoring;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray.SumNumbersInArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -396,7 +364,7 @@
 			};
 			name = Debug;
 		};
-		187905DB25EBB856006A94B2 /* Release */ = {
+		18023A2D25F3A2CD0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -407,53 +375,53 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Mentoring/Info.plist;
+				INFOPLIST_FILE = SumNumbersInArray/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentoring.Mentoring;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray.SumNumbersInArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		187905DD25EBB856006A94B2 /* Debug */ = {
+		18023A2F25F3A2CD0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 34Z4454BBG;
-				INFOPLIST_FILE = MentoringTests/Info.plist;
+				INFOPLIST_FILE = SumNumbersInArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentoring.MentoringTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray.SumNumbersInArrayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		187905DE25EBB856006A94B2 /* Release */ = {
+		18023A3025F3A2CD0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 34Z4454BBG;
-				INFOPLIST_FILE = MentoringTests/Info.plist;
+				INFOPLIST_FILE = SumNumbersInArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mentoring.MentoringTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray.SumNumbersInArrayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -462,34 +430,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		187905BF25EBB855006A94B2 /* Build configuration list for PBXProject "Mentoring" */ = {
+		18023A1125F3A2CD0080FEDC /* Build configuration list for PBXProject "SumNumbersInArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				187905D725EBB856006A94B2 /* Debug */,
-				187905D825EBB856006A94B2 /* Release */,
+				18023A2925F3A2CD0080FEDC /* Debug */,
+				18023A2A25F3A2CD0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		187905D925EBB856006A94B2 /* Build configuration list for PBXNativeTarget "Mentoring" */ = {
+		18023A2B25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				187905DA25EBB856006A94B2 /* Debug */,
-				187905DB25EBB856006A94B2 /* Release */,
+				18023A2C25F3A2CD0080FEDC /* Debug */,
+				18023A2D25F3A2CD0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		187905DC25EBB856006A94B2 /* Build configuration list for PBXNativeTarget "MentoringTests" */ = {
+		18023A2E25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArrayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				187905DD25EBB856006A94B2 /* Debug */,
-				187905DE25EBB856006A94B2 /* Release */,
+				18023A2F25F3A2CD0080FEDC /* Debug */,
+				18023A3025F3A2CD0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 187905BC25EBB855006A94B2 /* Project object */;
+	rootObject = 18023A0E25F3A2CD0080FEDC /* Project object */;
 }

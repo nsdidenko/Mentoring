@@ -1,5 +1,5 @@
 import XCTest
-import Mentoring
+import SortNumbersInArrayAscending
 
 class SortNumbersAscendingTests: XCTestCase {
     func test_sort_sortsNumbersAscending() {

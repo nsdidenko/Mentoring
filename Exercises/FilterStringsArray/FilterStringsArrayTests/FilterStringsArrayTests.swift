@@ -1,7 +1,7 @@
 import XCTest
-import Mentoring
+import FilterStringsArray
 
-class FilterArrayTests: XCTestCase {
+class FilterStringsArrayTests: XCTestCase {
     func test_filter_returnsFilteredArrayWhereEachElementIsLessThanFive() {
         let filtered = filter(["Hey", "Hello", "Hi", "Good Morning", "Fizz", "FizzBuzz"])
         

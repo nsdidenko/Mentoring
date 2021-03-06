@@ -1,5 +1,5 @@
 import XCTest
-import Mentoring
+import FizzBuzz
 
 class FizzBuzzTests: XCTestCase {
     

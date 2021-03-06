@@ -1,7 +1,7 @@
 import XCTest
-import Mentoring
+import SumNumbersInArray
 
-class SumAllArrayItemsTests: XCTestCase {
+class SumNumbersInArrayTests: XCTestCase {
     func test_sum_returnsSumOfAllItems() {
         let result = sum([2.5, 1.7, 3.3])
         
