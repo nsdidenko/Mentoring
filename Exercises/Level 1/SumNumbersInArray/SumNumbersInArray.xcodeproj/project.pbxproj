@@ -7,89 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180239F125F3A0A80080FEDC /* SortNumbersInArrayAscending.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180239E725F3A0A80080FEDC /* SortNumbersInArrayAscending.framework */; };
-		180239F625F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180239F525F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.swift */; };
-		18023A0625F3A0BF0080FEDC /* SortNumbersAscending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A0525F3A0BF0080FEDC /* SortNumbersAscending.swift */; };
+		18023A2125F3A2CD0080FEDC /* SumNumbersInArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */; };
+		18023A2625F3A2CD0080FEDC /* SumNumbersInArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A2525F3A2CD0080FEDC /* SumNumbersInArrayTests.swift */; };
+		18023A3625F3A36E0080FEDC /* SumNumbersInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A3525F3A36E0080FEDC /* SumNumbersInArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		180239F225F3A0A80080FEDC /* PBXContainerItemProxy */ = {
+		18023A2225F3A2CD0080FEDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 180239DE25F3A0A80080FEDC /* Project object */;
+			containerPortal = 18023A0E25F3A2CD0080FEDC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 180239E625F3A0A80080FEDC;
-			remoteInfo = SortNumbersInArrayAscending;
+			remoteGlobalIDString = 18023A1625F3A2CD0080FEDC;
+			remoteInfo = SumNumbersInArray;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		180239E725F3A0A80080FEDC /* SortNumbersInArrayAscending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SortNumbersInArrayAscending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		180239EB25F3A0A80080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		180239F025F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortNumbersInArrayAscendingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		180239F525F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortNumbersInArrayAscendingTests.swift; sourceTree = "<group>"; };
-		180239F725F3A0A80080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18023A0525F3A0BF0080FEDC /* SortNumbersAscending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortNumbersAscending.swift; sourceTree = "<group>"; };
+		18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SumNumbersInArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A1B25F3A2CD0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A2025F3A2CD0080FEDC /* SumNumbersInArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumNumbersInArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A2525F3A2CD0080FEDC /* SumNumbersInArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumNumbersInArrayTests.swift; sourceTree = "<group>"; };
+		18023A2725F3A2CD0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A3525F3A36E0080FEDC /* SumNumbersInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumNumbersInArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		180239E425F3A0A80080FEDC /* Frameworks */ = {
+		18023A1425F3A2CD0080FEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		180239ED25F3A0A80080FEDC /* Frameworks */ = {
+		18023A1D25F3A2CD0080FEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180239F125F3A0A80080FEDC /* SortNumbersInArrayAscending.framework in Frameworks */,
+				18023A2125F3A2CD0080FEDC /* SumNumbersInArray.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		180239DD25F3A0A80080FEDC = {
+		18023A0D25F3A2CD0080FEDC = {
 			isa = PBXGroup;
 			children = (
-				180239E925F3A0A80080FEDC /* SortNumbersInArrayAscending */,
-				180239F425F3A0A80080FEDC /* SortNumbersInArrayAscendingTests */,
-				180239E825F3A0A80080FEDC /* Products */,
+				18023A1925F3A2CD0080FEDC /* SumNumbersInArray */,
+				18023A2425F3A2CD0080FEDC /* SumNumbersInArrayTests */,
+				18023A1825F3A2CD0080FEDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		180239E825F3A0A80080FEDC /* Products */ = {
+		18023A1825F3A2CD0080FEDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				180239E725F3A0A80080FEDC /* SortNumbersInArrayAscending.framework */,
-				180239F025F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.xctest */,
+				18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */,
+				18023A2025F3A2CD0080FEDC /* SumNumbersInArrayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		180239E925F3A0A80080FEDC /* SortNumbersInArrayAscending */ = {
+		18023A1925F3A2CD0080FEDC /* SumNumbersInArray */ = {
 			isa = PBXGroup;
 			children = (
-				180239EB25F3A0A80080FEDC /* Info.plist */,
-				18023A0525F3A0BF0080FEDC /* SortNumbersAscending.swift */,
+				18023A3525F3A36E0080FEDC /* SumNumbersInArray.swift */,
+				18023A1B25F3A2CD0080FEDC /* Info.plist */,
 			);
-			path = SortNumbersInArrayAscending;
+			path = SumNumbersInArray;
 			sourceTree = "<group>";
 		};
-		180239F425F3A0A80080FEDC /* SortNumbersInArrayAscendingTests */ = {
+		18023A2425F3A2CD0080FEDC /* SumNumbersInArrayTests */ = {
 			isa = PBXGroup;
 			children = (
-				180239F725F3A0A80080FEDC /* Info.plist */,
-				180239F525F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.swift */,
+				18023A2525F3A2CD0080FEDC /* SumNumbersInArrayTests.swift */,
+				18023A2725F3A2CD0080FEDC /* Info.plist */,
 			);
-			path = SortNumbersInArrayAscendingTests;
+			path = SumNumbersInArrayTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		180239E225F3A0A80080FEDC /* Headers */ = {
+		18023A1225F3A2CD0080FEDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,61 +99,61 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		180239E625F3A0A80080FEDC /* SortNumbersInArrayAscending */ = {
+		18023A1625F3A2CD0080FEDC /* SumNumbersInArray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 180239FB25F3A0A80080FEDC /* Build configuration list for PBXNativeTarget "SortNumbersInArrayAscending" */;
+			buildConfigurationList = 18023A2B25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArray" */;
 			buildPhases = (
-				180239E225F3A0A80080FEDC /* Headers */,
-				180239E325F3A0A80080FEDC /* Sources */,
-				180239E425F3A0A80080FEDC /* Frameworks */,
-				180239E525F3A0A80080FEDC /* Resources */,
+				18023A1225F3A2CD0080FEDC /* Headers */,
+				18023A1325F3A2CD0080FEDC /* Sources */,
+				18023A1425F3A2CD0080FEDC /* Frameworks */,
+				18023A1525F3A2CD0080FEDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SortNumbersInArrayAscending;
-			productName = SortNumbersInArrayAscending;
-			productReference = 180239E725F3A0A80080FEDC /* SortNumbersInArrayAscending.framework */;
+			name = SumNumbersInArray;
+			productName = SumNumbersInArray;
+			productReference = 18023A1725F3A2CD0080FEDC /* SumNumbersInArray.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		180239EF25F3A0A80080FEDC /* SortNumbersInArrayAscendingTests */ = {
+		18023A1F25F3A2CD0080FEDC /* SumNumbersInArrayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 180239FE25F3A0A80080FEDC /* Build configuration list for PBXNativeTarget "SortNumbersInArrayAscendingTests" */;
+			buildConfigurationList = 18023A2E25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArrayTests" */;
 			buildPhases = (
-				180239EC25F3A0A80080FEDC /* Sources */,
-				180239ED25F3A0A80080FEDC /* Frameworks */,
-				180239EE25F3A0A80080FEDC /* Resources */,
+				18023A1C25F3A2CD0080FEDC /* Sources */,
+				18023A1D25F3A2CD0080FEDC /* Frameworks */,
+				18023A1E25F3A2CD0080FEDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				180239F325F3A0A80080FEDC /* PBXTargetDependency */,
+				18023A2325F3A2CD0080FEDC /* PBXTargetDependency */,
 			);
-			name = SortNumbersInArrayAscendingTests;
-			productName = SortNumbersInArrayAscendingTests;
-			productReference = 180239F025F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.xctest */;
+			name = SumNumbersInArrayTests;
+			productName = SumNumbersInArrayTests;
+			productReference = 18023A2025F3A2CD0080FEDC /* SumNumbersInArrayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		180239DE25F3A0A80080FEDC /* Project object */ = {
+		18023A0E25F3A2CD0080FEDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					180239E625F3A0A80080FEDC = {
+					18023A1625F3A2CD0080FEDC = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
 					};
-					180239EF25F3A0A80080FEDC = {
+					18023A1F25F3A2CD0080FEDC = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 180239E125F3A0A80080FEDC /* Build configuration list for PBXProject "SortNumbersInArrayAscending" */;
+			buildConfigurationList = 18023A1125F3A2CD0080FEDC /* Build configuration list for PBXProject "SumNumbersInArray" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,26 +161,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 180239DD25F3A0A80080FEDC;
-			productRefGroup = 180239E825F3A0A80080FEDC /* Products */;
+			mainGroup = 18023A0D25F3A2CD0080FEDC;
+			productRefGroup = 18023A1825F3A2CD0080FEDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				180239E625F3A0A80080FEDC /* SortNumbersInArrayAscending */,
-				180239EF25F3A0A80080FEDC /* SortNumbersInArrayAscendingTests */,
+				18023A1625F3A2CD0080FEDC /* SumNumbersInArray */,
+				18023A1F25F3A2CD0080FEDC /* SumNumbersInArrayTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		180239E525F3A0A80080FEDC /* Resources */ = {
+		18023A1525F3A2CD0080FEDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		180239EE25F3A0A80080FEDC /* Resources */ = {
+		18023A1E25F3A2CD0080FEDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,34 +190,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		180239E325F3A0A80080FEDC /* Sources */ = {
+		18023A1325F3A2CD0080FEDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18023A0625F3A0BF0080FEDC /* SortNumbersAscending.swift in Sources */,
+				18023A3625F3A36E0080FEDC /* SumNumbersInArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		180239EC25F3A0A80080FEDC /* Sources */ = {
+		18023A1C25F3A2CD0080FEDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180239F625F3A0A80080FEDC /* SortNumbersInArrayAscendingTests.swift in Sources */,
+				18023A2625F3A2CD0080FEDC /* SumNumbersInArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		180239F325F3A0A80080FEDC /* PBXTargetDependency */ = {
+		18023A2325F3A2CD0080FEDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 180239E625F3A0A80080FEDC /* SortNumbersInArrayAscending */;
-			targetProxy = 180239F225F3A0A80080FEDC /* PBXContainerItemProxy */;
+			target = 18023A1625F3A2CD0080FEDC /* SumNumbersInArray */;
+			targetProxy = 18023A2225F3A2CD0080FEDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		180239F925F3A0A80080FEDC /* Debug */ = {
+		18023A2925F3A2CD0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		180239FA25F3A0A80080FEDC /* Release */ = {
+		18023A2A25F3A2CD0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,25 +338,25 @@
 			};
 			name = Release;
 		};
-		180239FC25F3A0A80080FEDC /* Debug */ = {
+		18023A2C25F3A2CD0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SortNumbersInArrayAscending/Info.plist;
+				INFOPLIST_FILE = SumNumbersInArray/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sortNumbersInArrayAscending.SortNumbersInArrayAscending;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -364,64 +364,64 @@
 			};
 			name = Debug;
 		};
-		180239FD25F3A0A80080FEDC /* Release */ = {
+		18023A2D25F3A2CD0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SortNumbersInArrayAscending/Info.plist;
+				INFOPLIST_FILE = SumNumbersInArray/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sortNumbersInArrayAscending.SortNumbersInArrayAscending;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		180239FF25F3A0A80080FEDC /* Debug */ = {
+		18023A2F25F3A2CD0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
-				INFOPLIST_FILE = SortNumbersInArrayAscendingTests/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SumNumbersInArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sortNumbersInArrayAscending.SortNumbersInArrayAscendingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray.SumNumbersInArrayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		18023A0025F3A0A80080FEDC /* Release */ = {
+		18023A3025F3A2CD0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
-				INFOPLIST_FILE = SortNumbersInArrayAscendingTests/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SumNumbersInArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sortNumbersInArrayAscending.SortNumbersInArrayAscendingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumNumbersInArray.SumNumbersInArrayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -430,34 +430,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		180239E125F3A0A80080FEDC /* Build configuration list for PBXProject "SortNumbersInArrayAscending" */ = {
+		18023A1125F3A2CD0080FEDC /* Build configuration list for PBXProject "SumNumbersInArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				180239F925F3A0A80080FEDC /* Debug */,
-				180239FA25F3A0A80080FEDC /* Release */,
+				18023A2925F3A2CD0080FEDC /* Debug */,
+				18023A2A25F3A2CD0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		180239FB25F3A0A80080FEDC /* Build configuration list for PBXNativeTarget "SortNumbersInArrayAscending" */ = {
+		18023A2B25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				180239FC25F3A0A80080FEDC /* Debug */,
-				180239FD25F3A0A80080FEDC /* Release */,
+				18023A2C25F3A2CD0080FEDC /* Debug */,
+				18023A2D25F3A2CD0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		180239FE25F3A0A80080FEDC /* Build configuration list for PBXNativeTarget "SortNumbersInArrayAscendingTests" */ = {
+		18023A2E25F3A2CD0080FEDC /* Build configuration list for PBXNativeTarget "SumNumbersInArrayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				180239FF25F3A0A80080FEDC /* Debug */,
-				18023A0025F3A0A80080FEDC /* Release */,
+				18023A2F25F3A2CD0080FEDC /* Debug */,
+				18023A3025F3A2CD0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 180239DE25F3A0A80080FEDC /* Project object */;
+	rootObject = 18023A0E25F3A2CD0080FEDC /* Project object */;
 }

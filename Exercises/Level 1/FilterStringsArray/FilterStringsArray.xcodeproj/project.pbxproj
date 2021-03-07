@@ -7,89 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18023A4F25F3A3FD0080FEDC /* ReverseString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18023A4525F3A3FD0080FEDC /* ReverseString.framework */; };
-		18023A5425F3A3FD0080FEDC /* ReverseStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A5325F3A3FD0080FEDC /* ReverseStringTests.swift */; };
-		18023A6625F3A42D0080FEDC /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A6525F3A42D0080FEDC /* ReverseString.swift */; };
+		18023A8125F3A6AC0080FEDC /* FilterStringsArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18023A7725F3A6AC0080FEDC /* FilterStringsArray.framework */; };
+		18023A8625F3A6AC0080FEDC /* FilterStringsArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A8525F3A6AC0080FEDC /* FilterStringsArrayTests.swift */; };
+		18023A9625F3A6C70080FEDC /* FilterStringsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18023A9525F3A6C70080FEDC /* FilterStringsArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18023A5025F3A3FD0080FEDC /* PBXContainerItemProxy */ = {
+		18023A8225F3A6AC0080FEDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18023A3C25F3A3FD0080FEDC /* Project object */;
+			containerPortal = 18023A6E25F3A6AC0080FEDC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18023A4425F3A3FD0080FEDC;
-			remoteInfo = ReverseString;
+			remoteGlobalIDString = 18023A7625F3A6AC0080FEDC;
+			remoteInfo = FilterStringsArray;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18023A4525F3A3FD0080FEDC /* ReverseString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReverseString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18023A4925F3A3FD0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18023A4E25F3A3FD0080FEDC /* ReverseStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18023A5325F3A3FD0080FEDC /* ReverseStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringTests.swift; sourceTree = "<group>"; };
-		18023A5525F3A3FD0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18023A6525F3A42D0080FEDC /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		18023A7725F3A6AC0080FEDC /* FilterStringsArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FilterStringsArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A7B25F3A6AC0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A8025F3A6AC0080FEDC /* FilterStringsArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilterStringsArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18023A8525F3A6AC0080FEDC /* FilterStringsArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStringsArrayTests.swift; sourceTree = "<group>"; };
+		18023A8725F3A6AC0080FEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18023A9525F3A6C70080FEDC /* FilterStringsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStringsArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18023A4225F3A3FD0080FEDC /* Frameworks */ = {
+		18023A7425F3A6AC0080FEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18023A4B25F3A3FD0080FEDC /* Frameworks */ = {
+		18023A7D25F3A6AC0080FEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18023A4F25F3A3FD0080FEDC /* ReverseString.framework in Frameworks */,
+				18023A8125F3A6AC0080FEDC /* FilterStringsArray.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18023A3B25F3A3FD0080FEDC = {
+		18023A6D25F3A6AC0080FEDC = {
 			isa = PBXGroup;
 			children = (
-				18023A4725F3A3FD0080FEDC /* ReverseString */,
-				18023A5225F3A3FD0080FEDC /* ReverseStringTests */,
-				18023A4625F3A3FD0080FEDC /* Products */,
+				18023A7925F3A6AC0080FEDC /* FilterStringsArray */,
+				18023A8425F3A6AC0080FEDC /* FilterStringsArrayTests */,
+				18023A7825F3A6AC0080FEDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18023A4625F3A3FD0080FEDC /* Products */ = {
+		18023A7825F3A6AC0080FEDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18023A4525F3A3FD0080FEDC /* ReverseString.framework */,
-				18023A4E25F3A3FD0080FEDC /* ReverseStringTests.xctest */,
+				18023A7725F3A6AC0080FEDC /* FilterStringsArray.framework */,
+				18023A8025F3A6AC0080FEDC /* FilterStringsArrayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18023A4725F3A3FD0080FEDC /* ReverseString */ = {
+		18023A7925F3A6AC0080FEDC /* FilterStringsArray */ = {
 			isa = PBXGroup;
 			children = (
-				18023A4925F3A3FD0080FEDC /* Info.plist */,
-				18023A6525F3A42D0080FEDC /* ReverseString.swift */,
+				18023A9525F3A6C70080FEDC /* FilterStringsArray.swift */,
+				18023A7B25F3A6AC0080FEDC /* Info.plist */,
 			);
-			path = ReverseString;
+			path = FilterStringsArray;
 			sourceTree = "<group>";
 		};
-		18023A5225F3A3FD0080FEDC /* ReverseStringTests */ = {
+		18023A8425F3A6AC0080FEDC /* FilterStringsArrayTests */ = {
 			isa = PBXGroup;
 			children = (
-				18023A5525F3A3FD0080FEDC /* Info.plist */,
-				18023A5325F3A3FD0080FEDC /* ReverseStringTests.swift */,
+				18023A8525F3A6AC0080FEDC /* FilterStringsArrayTests.swift */,
+				18023A8725F3A6AC0080FEDC /* Info.plist */,
 			);
-			path = ReverseStringTests;
+			path = FilterStringsArrayTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18023A4025F3A3FD0080FEDC /* Headers */ = {
+		18023A7225F3A6AC0080FEDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,61 +99,61 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18023A4425F3A3FD0080FEDC /* ReverseString */ = {
+		18023A7625F3A6AC0080FEDC /* FilterStringsArray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18023A5925F3A3FD0080FEDC /* Build configuration list for PBXNativeTarget "ReverseString" */;
+			buildConfigurationList = 18023A8B25F3A6AC0080FEDC /* Build configuration list for PBXNativeTarget "FilterStringsArray" */;
 			buildPhases = (
-				18023A4025F3A3FD0080FEDC /* Headers */,
-				18023A4125F3A3FD0080FEDC /* Sources */,
-				18023A4225F3A3FD0080FEDC /* Frameworks */,
-				18023A4325F3A3FD0080FEDC /* Resources */,
+				18023A7225F3A6AC0080FEDC /* Headers */,
+				18023A7325F3A6AC0080FEDC /* Sources */,
+				18023A7425F3A6AC0080FEDC /* Frameworks */,
+				18023A7525F3A6AC0080FEDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ReverseString;
-			productName = ReverseString;
-			productReference = 18023A4525F3A3FD0080FEDC /* ReverseString.framework */;
+			name = FilterStringsArray;
+			productName = FilterStringsArray;
+			productReference = 18023A7725F3A6AC0080FEDC /* FilterStringsArray.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		18023A4D25F3A3FD0080FEDC /* ReverseStringTests */ = {
+		18023A7F25F3A6AC0080FEDC /* FilterStringsArrayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18023A5C25F3A3FD0080FEDC /* Build configuration list for PBXNativeTarget "ReverseStringTests" */;
+			buildConfigurationList = 18023A8E25F3A6AC0080FEDC /* Build configuration list for PBXNativeTarget "FilterStringsArrayTests" */;
 			buildPhases = (
-				18023A4A25F3A3FD0080FEDC /* Sources */,
-				18023A4B25F3A3FD0080FEDC /* Frameworks */,
-				18023A4C25F3A3FD0080FEDC /* Resources */,
+				18023A7C25F3A6AC0080FEDC /* Sources */,
+				18023A7D25F3A6AC0080FEDC /* Frameworks */,
+				18023A7E25F3A6AC0080FEDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18023A5125F3A3FD0080FEDC /* PBXTargetDependency */,
+				18023A8325F3A6AC0080FEDC /* PBXTargetDependency */,
 			);
-			name = ReverseStringTests;
-			productName = ReverseStringTests;
-			productReference = 18023A4E25F3A3FD0080FEDC /* ReverseStringTests.xctest */;
+			name = FilterStringsArrayTests;
+			productName = FilterStringsArrayTests;
+			productReference = 18023A8025F3A6AC0080FEDC /* FilterStringsArrayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18023A3C25F3A3FD0080FEDC /* Project object */ = {
+		18023A6E25F3A6AC0080FEDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					18023A4425F3A3FD0080FEDC = {
+					18023A7625F3A6AC0080FEDC = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
 					};
-					18023A4D25F3A3FD0080FEDC = {
+					18023A7F25F3A6AC0080FEDC = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 18023A3F25F3A3FD0080FEDC /* Build configuration list for PBXProject "ReverseString" */;
+			buildConfigurationList = 18023A7125F3A6AC0080FEDC /* Build configuration list for PBXProject "FilterStringsArray" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,26 +161,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 18023A3B25F3A3FD0080FEDC;
-			productRefGroup = 18023A4625F3A3FD0080FEDC /* Products */;
+			mainGroup = 18023A6D25F3A6AC0080FEDC;
+			productRefGroup = 18023A7825F3A6AC0080FEDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18023A4425F3A3FD0080FEDC /* ReverseString */,
-				18023A4D25F3A3FD0080FEDC /* ReverseStringTests */,
+				18023A7625F3A6AC0080FEDC /* FilterStringsArray */,
+				18023A7F25F3A6AC0080FEDC /* FilterStringsArrayTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18023A4325F3A3FD0080FEDC /* Resources */ = {
+		18023A7525F3A6AC0080FEDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18023A4C25F3A3FD0080FEDC /* Resources */ = {
+		18023A7E25F3A6AC0080FEDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,34 +190,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18023A4125F3A3FD0080FEDC /* Sources */ = {
+		18023A7325F3A6AC0080FEDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18023A6625F3A42D0080FEDC /* ReverseString.swift in Sources */,
+				18023A9625F3A6C70080FEDC /* FilterStringsArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18023A4A25F3A3FD0080FEDC /* Sources */ = {
+		18023A7C25F3A6AC0080FEDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18023A5425F3A3FD0080FEDC /* ReverseStringTests.swift in Sources */,
+				18023A8625F3A6AC0080FEDC /* FilterStringsArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18023A5125F3A3FD0080FEDC /* PBXTargetDependency */ = {
+		18023A8325F3A6AC0080FEDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18023A4425F3A3FD0080FEDC /* ReverseString */;
-			targetProxy = 18023A5025F3A3FD0080FEDC /* PBXContainerItemProxy */;
+			target = 18023A7625F3A6AC0080FEDC /* FilterStringsArray */;
+			targetProxy = 18023A8225F3A6AC0080FEDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18023A5725F3A3FD0080FEDC /* Debug */ = {
+		18023A8925F3A6AC0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		18023A5825F3A3FD0080FEDC /* Release */ = {
+		18023A8A25F3A6AC0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,25 +338,25 @@
 			};
 			name = Release;
 		};
-		18023A5A25F3A3FD0080FEDC /* Debug */ = {
+		18023A8C25F3A6AC0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ReverseString/Info.plist;
+				INFOPLIST_FILE = FilterStringsArray/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reverseString.ReverseString;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filterStringsArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -364,64 +364,64 @@
 			};
 			name = Debug;
 		};
-		18023A5B25F3A3FD0080FEDC /* Release */ = {
+		18023A8D25F3A6AC0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ReverseString/Info.plist;
+				INFOPLIST_FILE = FilterStringsArray/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reverseString.ReverseString;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filterStringsArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		18023A5D25F3A3FD0080FEDC /* Debug */ = {
+		18023A8F25F3A6AC0080FEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
-				INFOPLIST_FILE = ReverseStringTests/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FilterStringsArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reverseString.ReverseStringTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filterStringsArray.FilterStringsArrayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		18023A5E25F3A3FD0080FEDC /* Release */ = {
+		18023A9025F3A6AC0080FEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 34Z4454BBG;
-				INFOPLIST_FILE = ReverseStringTests/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FilterStringsArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reverseString.ReverseStringTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filterStringsArray.FilterStringsArrayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -430,34 +430,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18023A3F25F3A3FD0080FEDC /* Build configuration list for PBXProject "ReverseString" */ = {
+		18023A7125F3A6AC0080FEDC /* Build configuration list for PBXProject "FilterStringsArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18023A5725F3A3FD0080FEDC /* Debug */,
-				18023A5825F3A3FD0080FEDC /* Release */,
+				18023A8925F3A6AC0080FEDC /* Debug */,
+				18023A8A25F3A6AC0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18023A5925F3A3FD0080FEDC /* Build configuration list for PBXNativeTarget "ReverseString" */ = {
+		18023A8B25F3A6AC0080FEDC /* Build configuration list for PBXNativeTarget "FilterStringsArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18023A5A25F3A3FD0080FEDC /* Debug */,
-				18023A5B25F3A3FD0080FEDC /* Release */,
+				18023A8C25F3A6AC0080FEDC /* Debug */,
+				18023A8D25F3A6AC0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18023A5C25F3A3FD0080FEDC /* Build configuration list for PBXNativeTarget "ReverseStringTests" */ = {
+		18023A8E25F3A6AC0080FEDC /* Build configuration list for PBXNativeTarget "FilterStringsArrayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18023A5D25F3A3FD0080FEDC /* Debug */,
-				18023A5E25F3A3FD0080FEDC /* Release */,
+				18023A8F25F3A6AC0080FEDC /* Debug */,
+				18023A9025F3A6AC0080FEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18023A3C25F3A3FD0080FEDC /* Project object */;
+	rootObject = 18023A6E25F3A6AC0080FEDC /* Project object */;
 }
