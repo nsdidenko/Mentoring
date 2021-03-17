@@ -14,3 +14,7 @@ public func leaveEvenNumbers(in array: [Int]) -> [Int] {
     }
     return result
 }
+
+//public func leaveEvenNumbers(in array: [Int]) -> [Int] {
+//    array.filter { $0 % 2 == 0 }
+//}
