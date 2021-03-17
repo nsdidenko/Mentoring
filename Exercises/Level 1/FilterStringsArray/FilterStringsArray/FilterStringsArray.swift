@@ -6,5 +6,11 @@ import Foundation
  */
 
 public func filter(_ array: [String]) -> [String] {
-    []
+    var result = [String]()
+    for word in array {
+        if word.count < 5 {
+            result.append(word)
+        }
+    }
+    return result
 }
