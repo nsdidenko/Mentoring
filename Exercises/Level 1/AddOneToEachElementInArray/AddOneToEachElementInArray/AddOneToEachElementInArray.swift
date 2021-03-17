@@ -13,3 +13,7 @@ public func increaseEachElementByOne(in array: [Int]) -> [Int] {
     }
     return result
 }
+
+//public func increaseEachElementByOne(in array: [Int]) -> [Int] {
+//    array.map { $0 + 1 }
+//}
