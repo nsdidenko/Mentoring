@@ -14,3 +14,7 @@ public func filter(_ array: [String]) -> [String] {
     }
     return result
 }
+
+//public func filter(_ array: [String]) -> [String] {
+//    array.filter { $0.count < 5 }
+//}
