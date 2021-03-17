@@ -6,5 +6,11 @@ import Foundation
  */
 
 public func leaveEvenNumbers(in array: [Int]) -> [Int] {
-    []
+    var result = [Int]()
+    for num in array {
+        if num % 2 == 0 {
+            result.append(num)
+        }
+    }
+    return result
 }
