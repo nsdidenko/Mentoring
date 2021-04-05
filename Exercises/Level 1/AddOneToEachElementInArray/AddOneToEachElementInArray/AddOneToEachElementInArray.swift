@@ -6,5 +6,14 @@ import Foundation
  */
 
 public func increaseEachElementByOne(in array: [Int]) -> [Int] {
-    []
+    var result = [Int]()
+    for item in array {
+        let newItem = item + 1
+        result.append(newItem)
+    }
+    return result
 }
+
+//public func increaseEachElementByOne(in array: [Int]) -> [Int] {
+//    array.map { $0 + 1 }
+//}

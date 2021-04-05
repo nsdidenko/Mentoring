@@ -5,5 +5,11 @@ import Foundation
 */
 
 public func reverse(_ string: String) -> String {
-    ""
+    var result = [Character]()
+    for character in string {
+        result.insert(character, at: 0)
+    }
+    return String(result)
+    
+//    String(string.reversed())
 }
