@@ -6,9 +6,10 @@ import Foundation
  */
 
 public func sum(_ items: [Double]) -> Double {
-    var result = 0.0
-    for number in items {
-        result += number
-    }
-    return result
+//    var result = 0.0
+//    for number in items {
+//        result += number
+//    }
+//    return result
+    items.map{ $0 }
 }
